@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background: #000000;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.heading-one{
+    font-weight: 700;
+    font-size: 64px;
+    color: #ffffff;
+}
+.heading-two{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 6px;
+    color: #FFC178;
+    text-transform: uppercase;
+}
+.paragraph{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/* ========== nav bar start ========== */
+nav{
+    width: 100%;
+    padding: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+nav .main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .main-nav .logo{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1%;
+    color: #ffffff;
+}
+nav .main-nav ul{
+    display: flex;
+    gap: 60px;
+}
+nav .main-nav ul li a{
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+nav .main-nav ul li a:hover{
+    color: #000000;
+}
+/* ========== nav bar end ========== */
+/* ========== banner start ========== */
+#banner{
+    padding: 462px 0;
+    background: url(/images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner .banner-txt h2{
+    color: #FFC178;
+    letter-spacing: 7px;
+}
+#banner .banner-txt h1{
+    font-weight: 400;
+    font-size: 88px;
+    color: #ffffff;
+    line-height: 100px;
+    margin-top: 38px;
+}
+#banner .banner-txt h1 span{
+    font-weight: 700;
+    font-size: 96px;
+}
+
+/* ========== banner end ========== */
+/* ========== holyday start ========== */
+#holyday{
+    padding: 286px 0 295px;
+}
+#holyday .main-holy{
+    display: flex;
+}
+#holyday .main-holy .holy-txt{
+    padding: 0 0 0 42px;
+}
+#holyday .main-holy .holy-txt h3{
+    margin-top: 78px;
+}
+#holyday .main-holy .holy-txt h2{
+    margin: 13px 0;
+    width: 496px;
+}
+#holyday .main-holy .holy-txt p{
+    width: 577px;
+}
+#holyday .main-holy .holy-txt a{
+    letter-spacing: 0;
+    margin-top: 66px;
+}
+/* ========== holyday end ========== */
+/* ========== bromo start ========== */
+#bromo .main-bromo{
+    position: relative;
+}
+#bromo .main-bromo .bromo-txt{
+    text-align: center;
+    position: absolute;
+    bottom: 33px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+#bromo .main-bromo .bromo-txt h2{
+    width: 800px;
+    margin:  0 auto;
+    padding: 13px 0;
+}
+#bromo .main-bromo .bromo-txt p{
+    width: 835px;
+    margin: 0 auto;
+}
+#bromo .main-bromo .bromo-txt a{
+    margin: 26px 0 0;
+    letter-spacing: 0;
+}
+/* ========== bromo end ========== */
+/* ========== culture start ========== */
+#culture{
+    padding: 286px 0 295px;
+}
+#culture .main-culture{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#culture .main-culture .culture-txt{
+    width: 50%;
+}
+#culture .main-culture .culture-txt h3{
+    margin-top: 78px;
+}
+#culture .main-culture .culture-txt h2{
+    margin: 13px 0;
+    width: 550px;
+}
+#culture .main-culture .culture-txt p{
+    width: 515px;
+}
+#culture .main-culture .culture-txt a{
+    letter-spacing: 0;
+    margin-top: 66px;
+}
+/* ========== culture end ========== */
+/* ========== footer start ========== */
+#footer .foot-top{
+    display: flex;
+    justify-content: space-between;
+}
+#footer .foot-top .logo{
+    font-weight: 700;
+    font-size: 48px;
+    color: #ffffff;
+    letter-spacing: 1%;
+}
+#footer .foot-top .foot-top-ready{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+#footer .foot-top .foot-top-ready span{
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: -0.3px;
+    color: #ffffff;
+}
+#footer .foot-top .foot-top-ready a{
+    font-weight: 700;
+    font-size: 17px;
+    color: #000000;
+    padding: 18px 67px;
+    background: #FFA343;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+#footer .foot-top .foot-top-ready a:hover{
+    color: #ffffff;
+}
+#footer .foot-middle{
+    display: flex;
+    margin-top: 82px;
+}
+#footer .foot-middle .middle-left{
+    width: 50%;
+}
+#footer .foot-middle .middle-left h2{
+    font-size: 36px;
+    width: 405px;
+}
+#footer .foot-middle .middle-left p{
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-top: 49px;
+}
+#footer .foot-middle .middle-left .social{
+    margin-top: 16px;
+    width: 135px;
+    display: flex;
+    justify-content: space-between;
+}
+#footer .foot-middle .middle-left .social li a {
+    color: #ffffff;
+}
+#footer .foot-middle .middle-right{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+#footer .foot-middle .middle-right .important-link .list-heading{
+    color: #FFD1A0;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.23px;
+    text-transform: capitalize;
+    padding: 0 0 11px 0 ;
+}
+#footer .foot-middle .middle-right .important-link a{
+    font-size: 19px;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: -0.2px;
+    text-transform: capitalize;
+    padding: 8px 0;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+#footer .foot-middle .middle-right .important-link a:hover{
+    color: #FFD1A0;
+}
+#footer .foot-bottom{
+    text-align: center;
+    padding: 154px 0 10px;
+}
+#footer .foot-bottom p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    opacity: 50%;
+}
+/* ========== footer end ========== */
